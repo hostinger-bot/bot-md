@@ -28,7 +28,7 @@ const defaultMenu = {
 ├ *Ⓟ* = Premium
 ├ *Ⓛ* = Limit
 └────
-%readmore`.trim(),
+`.trim(),
   header: '┌─〔 %category 〕',
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
@@ -255,7 +255,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ❏ *U S E R   I N F O*
 • Nama    : *${name}*
 • Limit   : *${limit}*
-• Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}*
+• Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner' : 'Users'}*
 • Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan'}*
 
 ❏ *S T A T U S   I N F O*
@@ -280,7 +280,7 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
       footer: wm,
       title: judul,
-      buttonText: "Klik Disini",
+      buttonText: "Click Here",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
@@ -384,7 +384,7 @@ function ucapan() {
   return res
 }
 
-//By fahri adison = https://github.com/FahriAdison
+//By Tio adison = https://github.com/BOTCAHX 
 
  async function genProfile(conn, m) {
   let font = await jimp.loadFont('./name.fnt'),
