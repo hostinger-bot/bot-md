@@ -35,21 +35,21 @@ module.exports = {
         global.author = global.data.owner
         //global.author = 'The.sad.boy01'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = namabot + ' ву 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+        global.wm = namabot + ' BOTCAHX'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+        global.colong2 = 'BOTCAHX'
         global.kontak2 = [
-        ['62895336282144', '𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'drakblue3@gmail.com', true],
-        ['6282140373458', 'Raxcel-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true]
+        ['6282221792667', 'BOTCAHX', 'Developer', 'tioclkp02@gmail.com, true],
+        ['6281395861695', 'Raxcel-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true],
+        ['6281395861695', 'Bot Wa', 'Bot WhatsApp', 'hostingerbalance@gmail.com!', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -328,7 +328,7 @@ module.exports = {
                     antivirtex: false,
                     viewonce: true,
                     nsfw: false,
-                    simi: false,
+                    simi: true,
                     clear: false,
                     clearTime: 0
                 }
